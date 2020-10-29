@@ -26,4 +26,11 @@ public abstract class AbsStaffMember {
 	}
 
 	public abstract void pay();
+	
+	
+	//crea string para impresion
+	@Override
+	public String toString() {
+		return "name: " + name + ", totalPaid: " + totalPaid;
+	}
 }
